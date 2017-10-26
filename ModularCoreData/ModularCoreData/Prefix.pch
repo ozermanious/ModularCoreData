@@ -1,0 +1,9 @@
+//
+//  Prefix.pch
+//  ModularCoreData
+//
+//  Created by Vladimir Ozerov on 02/10/2017.
+//  Copyright © 2017 Vladimir Ozerov. All rights reserved.
+//
+
+@import CoreData;

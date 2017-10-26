@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "Externals">
+      <FileRef
+         location = "group:Externals/Expecta.framework">
+      </FileRef>
+      <FileRef
+         location = "group:Externals/OCMock.framework">
+      </FileRef>
+      <FileRef
+         location = "group:Externals/Masonry.framework">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:ModularCoreData/ModularCoreData.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ADVCore/ADVCore.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FANMultiuniverse/FANMultiuniverse.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ADVApp/ADVApp.xcodeproj">
+   </FileRef>
+</Workspace>

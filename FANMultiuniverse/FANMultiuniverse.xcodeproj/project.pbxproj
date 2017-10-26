@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20F97BB1F8FB3B8007AD0A9 /* ADVMOCharacter+Multiuniverse.h in Headers */ = {isa = PBXBuildFile; fileRef = B20F97B91F8FB3B8007AD0A9 /* ADVMOCharacter+Multiuniverse.h */; };
+		B20F97BC1F8FB3B8007AD0A9 /* ADVMOCharacter+Multiuniverse.m in Sources */ = {isa = PBXBuildFile; fileRef = B20F97BA1F8FB3B8007AD0A9 /* ADVMOCharacter+Multiuniverse.m */; };
+		B20F97BF1F8FB42B007AD0A9 /* ADVMOKingdom+Multiuniverse.h in Headers */ = {isa = PBXBuildFile; fileRef = B20F97BD1F8FB42B007AD0A9 /* ADVMOKingdom+Multiuniverse.h */; };
+		B20F97C01F8FB42B007AD0A9 /* ADVMOKingdom+Multiuniverse.m in Sources */ = {isa = PBXBuildFile; fileRef = B20F97BE1F8FB42B007AD0A9 /* ADVMOKingdom+Multiuniverse.m */; };
+		B20F97C31F8FB47A007AD0A9 /* ADVMODwelling+Multiuniverse.h in Headers */ = {isa = PBXBuildFile; fileRef = B20F97C11F8FB47A007AD0A9 /* ADVMODwelling+Multiuniverse.h */; };
+		B20F97C41F8FB47A007AD0A9 /* ADVMODwelling+Multiuniverse.m in Sources */ = {isa = PBXBuildFile; fileRef = B20F97C21F8FB47A007AD0A9 /* ADVMODwelling+Multiuniverse.m */; };
+		B21011881F8E47180031C4C6 /* FANDatabaseModelAssembly.h in Headers */ = {isa = PBXBuildFile; fileRef = B21011801F8E47180031C4C6 /* FANDatabaseModelAssembly.h */; };
+		B21011891F8E47180031C4C6 /* FANMOUniverse.m in Sources */ = {isa = PBXBuildFile; fileRef = B21011811F8E47180031C4C6 /* FANMOUniverse.m */; };
+		B210118A1F8E47180031C4C6 /* ADVMOVillain+Multiuniverse.h in Headers */ = {isa = PBXBuildFile; fileRef = B21011821F8E47180031C4C6 /* ADVMOVillain+Multiuniverse.h */; };
+		B210118B1F8E47180031C4C6 /* FANMOUniverse.h in Headers */ = {isa = PBXBuildFile; fileRef = B21011831F8E47180031C4C6 /* FANMOUniverse.h */; };
+		B210118C1F8E47180031C4C6 /* ADVMOVillain+Multiuniverse.m in Sources */ = {isa = PBXBuildFile; fileRef = B21011841F8E47180031C4C6 /* ADVMOVillain+Multiuniverse.m */; };
+		B210118E1F8E47180031C4C6 /* FANDatabaseModelAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = B21011861F8E47180031C4C6 /* FANDatabaseModelAssembly.m */; };
+		B21011AC1F8E48BF0031C4C6 /* ADVCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21011AD1F8E48BF0031C4C6 /* ADVCore.framework */; };
+		B21502B01F877A6C0058CB0A /* ModularCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21502B21F877A6C0058CB0A /* ModularCoreData.framework */; };
+		B2F067771F87744B001618D1 /* FANMultiuniverse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F0676D1F87744A001618D1 /* FANMultiuniverse.framework */; };
+		B2F0677C1F87744B001618D1 /* FANMultiuniverseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F0677B1F87744B001618D1 /* FANMultiuniverseTests.m */; };
+		B2F0677E1F87744B001618D1 /* FANMultiuniverse.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F067701F87744A001618D1 /* FANMultiuniverse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2F067781F87744B001618D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2F067641F87744A001618D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2F0676C1F87744A001618D1;
+			remoteInfo = FANMultiuniverse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B20F97B91F8FB3B8007AD0A9 /* ADVMOCharacter+Multiuniverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADVMOCharacter+Multiuniverse.h"; sourceTree = "<group>"; };
+		B20F97BA1F8FB3B8007AD0A9 /* ADVMOCharacter+Multiuniverse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ADVMOCharacter+Multiuniverse.m"; sourceTree = "<group>"; };
+		B20F97BD1F8FB42B007AD0A9 /* ADVMOKingdom+Multiuniverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADVMOKingdom+Multiuniverse.h"; sourceTree = "<group>"; };
+		B20F97BE1F8FB42B007AD0A9 /* ADVMOKingdom+Multiuniverse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ADVMOKingdom+Multiuniverse.m"; sourceTree = "<group>"; };
+		B20F97C11F8FB47A007AD0A9 /* ADVMODwelling+Multiuniverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADVMODwelling+Multiuniverse.h"; sourceTree = "<group>"; };
+		B20F97C21F8FB47A007AD0A9 /* ADVMODwelling+Multiuniverse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ADVMODwelling+Multiuniverse.m"; sourceTree = "<group>"; };
+		B21011801F8E47180031C4C6 /* FANDatabaseModelAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FANDatabaseModelAssembly.h; sourceTree = "<group>"; };
+		B21011811F8E47180031C4C6 /* FANMOUniverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FANMOUniverse.m; sourceTree = "<group>"; };
+		B21011821F8E47180031C4C6 /* ADVMOVillain+Multiuniverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ADVMOVillain+Multiuniverse.h"; sourceTree = "<group>"; };
+		B21011831F8E47180031C4C6 /* FANMOUniverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FANMOUniverse.h; sourceTree = "<group>"; };
+		B21011841F8E47180031C4C6 /* ADVMOVillain+Multiuniverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ADVMOVillain+Multiuniverse.m"; sourceTree = "<group>"; };
+		B21011861F8E47180031C4C6 /* FANDatabaseModelAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FANDatabaseModelAssembly.m; sourceTree = "<group>"; };
+		B21011AD1F8E48BF0031C4C6 /* ADVCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ADVCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B21502B21F877A6C0058CB0A /* ModularCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ModularCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F0676D1F87744A001618D1 /* FANMultiuniverse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FANMultiuniverse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F067701F87744A001618D1 /* FANMultiuniverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FANMultiuniverse.h; sourceTree = "<group>"; };
+		B2F067711F87744A001618D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F067761F87744B001618D1 /* FANMultiuniverseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FANMultiuniverseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F0677B1F87744B001618D1 /* FANMultiuniverseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FANMultiuniverseTests.m; sourceTree = "<group>"; };
+		B2F0677D1F87744B001618D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2F067691F87744A001618D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21011AC1F8E48BF0031C4C6 /* ADVCore.framework in Frameworks */,
+				B21502B01F877A6C0058CB0A /* ModularCoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F067731F87744B001618D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F067771F87744B001618D1 /* FANMultiuniverse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20F97B81F8FB394007AD0A9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B20F97B91F8FB3B8007AD0A9 /* ADVMOCharacter+Multiuniverse.h */,
+				B20F97BA1F8FB3B8007AD0A9 /* ADVMOCharacter+Multiuniverse.m */,
+				B21011821F8E47180031C4C6 /* ADVMOVillain+Multiuniverse.h */,
+				B21011841F8E47180031C4C6 /* ADVMOVillain+Multiuniverse.m */,
+				B20F97BD1F8FB42B007AD0A9 /* ADVMOKingdom+Multiuniverse.h */,
+				B20F97BE1F8FB42B007AD0A9 /* ADVMOKingdom+Multiuniverse.m */,
+				B20F97C11F8FB47A007AD0A9 /* ADVMODwelling+Multiuniverse.h */,
+				B20F97C21F8FB47A007AD0A9 /* ADVMODwelling+Multiuniverse.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		B21502A61F87783F0058CB0A /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				B20F97B81F8FB394007AD0A9 /* Extensions */,
+				B21011801F8E47180031C4C6 /* FANDatabaseModelAssembly.h */,
+				B21011861F8E47180031C4C6 /* FANDatabaseModelAssembly.m */,
+				B21011831F8E47180031C4C6 /* FANMOUniverse.h */,
+				B21011811F8E47180031C4C6 /* FANMOUniverse.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		B21502AE1F877A6B0058CB0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B21011AD1F8E48BF0031C4C6 /* ADVCore.framework */,
+				B21502B21F877A6C0058CB0A /* ModularCoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2F067631F87744A001618D1 = {
+			isa = PBXGroup;
+			children = (
+				B2F0676F1F87744A001618D1 /* FANMultiuniverse */,
+				B2F0677A1F87744B001618D1 /* FANMultiuniverseTests */,
+				B2F0676E1F87744A001618D1 /* Products */,
+				B21502AE1F877A6B0058CB0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2F0676E1F87744A001618D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2F0676D1F87744A001618D1 /* FANMultiuniverse.framework */,
+				B2F067761F87744B001618D1 /* FANMultiuniverseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2F0676F1F87744A001618D1 /* FANMultiuniverse */ = {
+			isa = PBXGroup;
+			children = (
+				B21502A61F87783F0058CB0A /* Core Data */,
+				B2F067701F87744A001618D1 /* FANMultiuniverse.h */,
+				B2F067711F87744A001618D1 /* Info.plist */,
+			);
+			path = FANMultiuniverse;
+			sourceTree = "<group>";
+		};
+		B2F0677A1F87744B001618D1 /* FANMultiuniverseTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2F0677B1F87744B001618D1 /* FANMultiuniverseTests.m */,
+				B2F0677D1F87744B001618D1 /* Info.plist */,
+			);
+			path = FANMultiuniverseTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B2F0676A1F87744A001618D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20F97BB1F8FB3B8007AD0A9 /* ADVMOCharacter+Multiuniverse.h in Headers */,
+				B2F0677E1F87744B001618D1 /* FANMultiuniverse.h in Headers */,
+				B210118B1F8E47180031C4C6 /* FANMOUniverse.h in Headers */,
+				B20F97BF1F8FB42B007AD0A9 /* ADVMOKingdom+Multiuniverse.h in Headers */,
+				B210118A1F8E47180031C4C6 /* ADVMOVillain+Multiuniverse.h in Headers */,
+				B20F97C31F8FB47A007AD0A9 /* ADVMODwelling+Multiuniverse.h in Headers */,
+				B21011881F8E47180031C4C6 /* FANDatabaseModelAssembly.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B2F0676C1F87744A001618D1 /* FANMultiuniverse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F067811F87744B001618D1 /* Build configuration list for PBXNativeTarget "FANMultiuniverse" */;
+			buildPhases = (
+				B2F067681F87744A001618D1 /* Sources */,
+				B2F067691F87744A001618D1 /* Frameworks */,
+				B2F0676A1F87744A001618D1 /* Headers */,
+				B2F0676B1F87744A001618D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FANMultiuniverse;
+			productName = FANMultiuniverse;
+			productReference = B2F0676D1F87744A001618D1 /* FANMultiuniverse.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2F067751F87744B001618D1 /* FANMultiuniverseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F067841F87744B001618D1 /* Build configuration list for PBXNativeTarget "FANMultiuniverseTests" */;
+			buildPhases = (
+				B2F067721F87744B001618D1 /* Sources */,
+				B2F067731F87744B001618D1 /* Frameworks */,
+				B2F067741F87744B001618D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2F067791F87744B001618D1 /* PBXTargetDependency */,
+			);
+			name = FANMultiuniverseTests;
+			productName = FANMultiuniverseTests;
+			productReference = B2F067761F87744B001618D1 /* FANMultiuniverseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2F067641F87744A001618D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FAN;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = FANs;
+				TargetAttributes = {
+					B2F0676C1F87744A001618D1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					B2F067751F87744B001618D1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B2F067671F87744A001618D1 /* Build configuration list for PBXProject "FANMultiuniverse" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2F067631F87744A001618D1;
+			productRefGroup = B2F0676E1F87744A001618D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2F0676C1F87744A001618D1 /* FANMultiuniverse */,
+				B2F067751F87744B001618D1 /* FANMultiuniverseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2F0676B1F87744A001618D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F067741F87744B001618D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2F067681F87744A001618D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20F97BC1F8FB3B8007AD0A9 /* ADVMOCharacter+Multiuniverse.m in Sources */,
+				B210118E1F8E47180031C4C6 /* FANDatabaseModelAssembly.m in Sources */,
+				B20F97C41F8FB47A007AD0A9 /* ADVMODwelling+Multiuniverse.m in Sources */,
+				B210118C1F8E47180031C4C6 /* ADVMOVillain+Multiuniverse.m in Sources */,
+				B20F97C01F8FB42B007AD0A9 /* ADVMOKingdom+Multiuniverse.m in Sources */,
+				B21011891F8E47180031C4C6 /* FANMOUniverse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F067721F87744B001618D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F0677C1F87744B001618D1 /* FANMultiuniverseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2F067791F87744B001618D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2F0676C1F87744A001618D1 /* FANMultiuniverse */;
+			targetProxy = B2F067781F87744B001618D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B2F0677F1F87744B001618D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2F067801F87744B001618D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2F067821F87744B001618D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FANMultiuniverse/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sbertech.FANMultiuniverse;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2F067831F87744B001618D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FANMultiuniverse/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sbertech.FANMultiuniverse;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B2F067851F87744B001618D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FANMultiuniverseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sbertech.FANMultiuniverseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2F067861F87744B001618D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FANMultiuniverseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sbertech.FANMultiuniverseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2F067671F87744A001618D1 /* Build configuration list for PBXProject "FANMultiuniverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F0677F1F87744B001618D1 /* Debug */,
+				B2F067801F87744B001618D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F067811F87744B001618D1 /* Build configuration list for PBXNativeTarget "FANMultiuniverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F067821F87744B001618D1 /* Debug */,
+				B2F067831F87744B001618D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F067841F87744B001618D1 /* Build configuration list for PBXNativeTarget "FANMultiuniverseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F067851F87744B001618D1 /* Debug */,
+				B2F067861F87744B001618D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2F067641F87744A001618D1 /* Project object */;
+}

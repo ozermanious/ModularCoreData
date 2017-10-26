@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B21502C81F8793F40058CB0A /* MCDDatabaseModelAssemblyProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B21502C71F8793F10058CB0A /* MCDDatabaseModelAssemblyProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2C00F781F82568B000CFF30 /* ModularCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C00F6E1F82568B000CFF30 /* ModularCoreData.framework */; };
+		B2C00F7F1F82568B000CFF30 /* ModularCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C00F711F82568B000CFF30 /* ModularCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2C00FDA1F825960000CFF30 /* MCDDatabaseMigrationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C00FC41F82595F000CFF30 /* MCDDatabaseMigrationManager.m */; };
+		B2C00FDB1F825960000CFF30 /* MCDDatabaseModel+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C00FC51F82595F000CFF30 /* MCDDatabaseModel+Private.h */; };
+		B2C00FDC1F825960000CFF30 /* MCDDatabaseModelFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C00FC61F82595F000CFF30 /* MCDDatabaseModelFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2C00FDD1F825960000CFF30 /* MCDDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C00FC71F82595F000CFF30 /* MCDDatabase.m */; };
+		B2C00FDE1F825960000CFF30 /* MCDDatabaseConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C00FC81F82595F000CFF30 /* MCDDatabaseConfiguration.m */; };
+		B2C00FDF1F825960000CFF30 /* MCDDatabaseModelConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C00FC91F82595F000CFF30 /* MCDDatabaseModelConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2C00FE11F825960000CFF30 /* MCDDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C00FCB1F82595F000CFF30 /* MCDDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2C00FE21F825960000CFF30 /* MCDDatabaseModelConfiguration+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C00FCC1F82595F000CFF30 /* MCDDatabaseModelConfiguration+Private.h */; };
+		B2C00FE31F825960000CFF30 /* MCDDatabaseMappingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C00FCD1F82595F000CFF30 /* MCDDatabaseMappingModel.m */; };
+		B2C00FE41F825960000CFF30 /* MCDDatabaseMigrationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C00FCE1F82595F000CFF30 /* MCDDatabaseMigrationManager.h */; };
+		B2C00FE51F825960000CFF30 /* MCDDatabaseContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C00FCF1F82595F000CFF30 /* MCDDatabaseContext.m */; };
+		B2C00FE61F825960000CFF30 /* MCDDatabaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C00FD01F82595F000CFF30 /* MCDDatabaseModel.m */; };
+		B2C00FE71F825960000CFF30 /* MCDDatabaseModelConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C00FD11F82595F000CFF30 /* MCDDatabaseModelConfiguration.m */; };
+		B2C00FE81F825960000CFF30 /* MCDDatabaseMappingModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C00FD21F825960000CFF30 /* MCDDatabaseMappingModel.h */; };
+		B2C00FE91F825960000CFF30 /* MCDDatabaseModelFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C00FD31F825960000CFF30 /* MCDDatabaseModelFunctions.m */; };
+		B2C00FEA1F825960000CFF30 /* MCDDatabase+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C00FD41F825960000CFF30 /* MCDDatabase+Private.h */; };
+		B2C00FEC1F825960000CFF30 /* MCDDatabaseConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C00FD61F825960000CFF30 /* MCDDatabaseConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2C00FED1F825960000CFF30 /* MCDDatabaseContext.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C00FD71F825960000CFF30 /* MCDDatabaseContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2C00FEE1F825960000CFF30 /* MCDDatabaseContext+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C00FD81F825960000CFF30 /* MCDDatabaseContext+Private.h */; };
+		B2C00FEF1F825960000CFF30 /* MCDDatabaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C00FD91F825960000CFF30 /* MCDDatabaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2C010031F825D32000CFF30 /* NSError+ModularCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C010011F825D31000CFF30 /* NSError+ModularCoreData.m */; };
+		B2C010041F825D32000CFF30 /* NSError+ModularCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C010021F825D32000CFF30 /* NSError+ModularCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2C010071F826C9A000CFF30 /* NSFileManager+ModularCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C010051F826C9A000CFF30 /* NSFileManager+ModularCoreData.h */; };
+		B2C010081F826C9A000CFF30 /* NSFileManager+ModularCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C010061F826C9A000CFF30 /* NSFileManager+ModularCoreData.m */; };
+		B2C010181F8275EC000CFF30 /* MCDDatabaseModel+Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C0100B1F8275EA000CFF30 /* MCDDatabaseModel+Tests.m */; };
+		B2C010191F8275EC000CFF30 /* NSPredicate+DatabaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C0100D1F8275EB000CFF30 /* NSPredicate+DatabaseTests.m */; };
+		B2C0101A1F8275EC000CFF30 /* MCDDatabaseModelConfigurationFamilyDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C010101F8275EB000CFF30 /* MCDDatabaseModelConfigurationFamilyDataSource.m */; };
+		B2C0101B1F8275EC000CFF30 /* NSManagedObject+DatabaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C010111F8275EB000CFF30 /* NSManagedObject+DatabaseTests.m */; };
+		B2C0101C1F8275EC000CFF30 /* MCDDatabaseModelConfigurationSuperHeroesDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C010151F8275EB000CFF30 /* MCDDatabaseModelConfigurationSuperHeroesDataSource.m */; };
+		B2C0101D1F8275EC000CFF30 /* MCDDatabaseContext+Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C010171F8275EB000CFF30 /* MCDDatabaseContext+Tests.m */; };
+		B2C010271F827630000CFF30 /* MCDDatabaseMappingModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C0101E1F82762F000CFF30 /* MCDDatabaseMappingModelTests.m */; };
+		B2C010281F827630000CFF30 /* MCDDatabaseContextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C0101F1F82762F000CFF30 /* MCDDatabaseContextTests.m */; };
+		B2C010291F827630000CFF30 /* MCDDatabaseMigrationManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C010201F82762F000CFF30 /* MCDDatabaseMigrationManagerTests.m */; };
+		B2C0102A1F827630000CFF30 /* MCDDatabaseModelConfigurationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C010211F82762F000CFF30 /* MCDDatabaseModelConfigurationTests.m */; };
+		B2C0102B1F827630000CFF30 /* MCDDatabaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C010221F82762F000CFF30 /* MCDDatabaseTests.m */; };
+		B2C0102C1F827630000CFF30 /* NSError+MCDDatabaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C010231F827630000CFF30 /* NSError+MCDDatabaseTests.m */; };
+		B2C0102D1F827630000CFF30 /* MCDDatabaseConfigurationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C010241F827630000CFF30 /* MCDDatabaseConfigurationTests.m */; };
+		B2C0102F1F827630000CFF30 /* MCDDatabaseModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C010261F827630000CFF30 /* MCDDatabaseModelTests.m */; };
+		B2CFD4B91FA0E7C3005E4B6D /* MCDDatabaseModelFunctionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C010251F827630000CFF30 /* MCDDatabaseModelFunctionsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2C00F791F82568B000CFF30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C00F651F82568B000CFF30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2C00F6D1F82568B000CFF30;
+			remoteInfo = ModularCoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B21502C71F8793F10058CB0A /* MCDDatabaseModelAssemblyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCDDatabaseModelAssemblyProtocol.h; sourceTree = "<group>"; };
+		B29FEB0D1F83957700ADE9A4 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		B2C00F6E1F82568B000CFF30 /* ModularCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModularCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C00F711F82568B000CFF30 /* ModularCoreData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModularCoreData.h; sourceTree = "<group>"; };
+		B2C00F721F82568B000CFF30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C00F771F82568B000CFF30 /* ModularCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C00F7E1F82568B000CFF30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C00FC41F82595F000CFF30 /* MCDDatabaseMigrationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDDatabaseMigrationManager.m; sourceTree = "<group>"; };
+		B2C00FC51F82595F000CFF30 /* MCDDatabaseModel+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCDDatabaseModel+Private.h"; sourceTree = "<group>"; };
+		B2C00FC61F82595F000CFF30 /* MCDDatabaseModelFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDDatabaseModelFunctions.h; sourceTree = "<group>"; };
+		B2C00FC71F82595F000CFF30 /* MCDDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDDatabase.m; sourceTree = "<group>"; };
+		B2C00FC81F82595F000CFF30 /* MCDDatabaseConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDDatabaseConfiguration.m; sourceTree = "<group>"; };
+		B2C00FC91F82595F000CFF30 /* MCDDatabaseModelConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDDatabaseModelConfiguration.h; sourceTree = "<group>"; };
+		B2C00FCB1F82595F000CFF30 /* MCDDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDDatabase.h; sourceTree = "<group>"; };
+		B2C00FCC1F82595F000CFF30 /* MCDDatabaseModelConfiguration+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCDDatabaseModelConfiguration+Private.h"; sourceTree = "<group>"; };
+		B2C00FCD1F82595F000CFF30 /* MCDDatabaseMappingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDDatabaseMappingModel.m; sourceTree = "<group>"; };
+		B2C00FCE1F82595F000CFF30 /* MCDDatabaseMigrationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDDatabaseMigrationManager.h; sourceTree = "<group>"; };
+		B2C00FCF1F82595F000CFF30 /* MCDDatabaseContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDDatabaseContext.m; sourceTree = "<group>"; };
+		B2C00FD01F82595F000CFF30 /* MCDDatabaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDDatabaseModel.m; sourceTree = "<group>"; };
+		B2C00FD11F82595F000CFF30 /* MCDDatabaseModelConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDDatabaseModelConfiguration.m; sourceTree = "<group>"; };
+		B2C00FD21F825960000CFF30 /* MCDDatabaseMappingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDDatabaseMappingModel.h; sourceTree = "<group>"; };
+		B2C00FD31F825960000CFF30 /* MCDDatabaseModelFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDDatabaseModelFunctions.m; sourceTree = "<group>"; };
+		B2C00FD41F825960000CFF30 /* MCDDatabase+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCDDatabase+Private.h"; sourceTree = "<group>"; };
+		B2C00FD61F825960000CFF30 /* MCDDatabaseConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDDatabaseConfiguration.h; sourceTree = "<group>"; };
+		B2C00FD71F825960000CFF30 /* MCDDatabaseContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDDatabaseContext.h; sourceTree = "<group>"; };
+		B2C00FD81F825960000CFF30 /* MCDDatabaseContext+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCDDatabaseContext+Private.h"; sourceTree = "<group>"; };
+		B2C00FD91F825960000CFF30 /* MCDDatabaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDDatabaseModel.h; sourceTree = "<group>"; };
+		B2C010001F825C81000CFF30 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		B2C010011F825D31000CFF30 /* NSError+ModularCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+ModularCoreData.m"; sourceTree = "<group>"; };
+		B2C010021F825D32000CFF30 /* NSError+ModularCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+ModularCoreData.h"; sourceTree = "<group>"; };
+		B2C010051F826C9A000CFF30 /* NSFileManager+ModularCoreData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+ModularCoreData.h"; sourceTree = "<group>"; };
+		B2C010061F826C9A000CFF30 /* NSFileManager+ModularCoreData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+ModularCoreData.m"; sourceTree = "<group>"; };
+		B2C0100B1F8275EA000CFF30 /* MCDDatabaseModel+Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MCDDatabaseModel+Tests.m"; sourceTree = "<group>"; };
+		B2C0100C1F8275EA000CFF30 /* MCDDatabaseModelConfigurationTestDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDDatabaseModelConfigurationTestDataSource.h; sourceTree = "<group>"; };
+		B2C0100D1F8275EB000CFF30 /* NSPredicate+DatabaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPredicate+DatabaseTests.m"; sourceTree = "<group>"; };
+		B2C0100E1F8275EB000CFF30 /* NSManagedObject+DatabaseTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+DatabaseTests.h"; sourceTree = "<group>"; };
+		B2C0100F1F8275EB000CFF30 /* MCDDatabaseContext+Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCDDatabaseContext+Tests.h"; sourceTree = "<group>"; };
+		B2C010101F8275EB000CFF30 /* MCDDatabaseModelConfigurationFamilyDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDDatabaseModelConfigurationFamilyDataSource.m; sourceTree = "<group>"; };
+		B2C010111F8275EB000CFF30 /* NSManagedObject+DatabaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+DatabaseTests.m"; sourceTree = "<group>"; };
+		B2C010121F8275EB000CFF30 /* MCDDatabaseModelConfigurationFamilyDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDDatabaseModelConfigurationFamilyDataSource.h; sourceTree = "<group>"; };
+		B2C010131F8275EB000CFF30 /* NSPredicate+DatabaseTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPredicate+DatabaseTests.h"; sourceTree = "<group>"; };
+		B2C010141F8275EB000CFF30 /* MCDDatabaseModel+Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCDDatabaseModel+Tests.h"; sourceTree = "<group>"; };
+		B2C010151F8275EB000CFF30 /* MCDDatabaseModelConfigurationSuperHeroesDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDDatabaseModelConfigurationSuperHeroesDataSource.m; sourceTree = "<group>"; };
+		B2C010161F8275EB000CFF30 /* MCDDatabaseModelConfigurationSuperHeroesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDDatabaseModelConfigurationSuperHeroesDataSource.h; sourceTree = "<group>"; };
+		B2C010171F8275EB000CFF30 /* MCDDatabaseContext+Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MCDDatabaseContext+Tests.m"; sourceTree = "<group>"; };
+		B2C0101E1F82762F000CFF30 /* MCDDatabaseMappingModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDDatabaseMappingModelTests.m; sourceTree = "<group>"; };
+		B2C0101F1F82762F000CFF30 /* MCDDatabaseContextTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDDatabaseContextTests.m; sourceTree = "<group>"; };
+		B2C010201F82762F000CFF30 /* MCDDatabaseMigrationManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDDatabaseMigrationManagerTests.m; sourceTree = "<group>"; };
+		B2C010211F82762F000CFF30 /* MCDDatabaseModelConfigurationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDDatabaseModelConfigurationTests.m; sourceTree = "<group>"; };
+		B2C010221F82762F000CFF30 /* MCDDatabaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDDatabaseTests.m; sourceTree = "<group>"; };
+		B2C010231F827630000CFF30 /* NSError+MCDDatabaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+MCDDatabaseTests.m"; sourceTree = "<group>"; };
+		B2C010241F827630000CFF30 /* MCDDatabaseConfigurationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDDatabaseConfigurationTests.m; sourceTree = "<group>"; };
+		B2C010251F827630000CFF30 /* MCDDatabaseModelFunctionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDDatabaseModelFunctionsTests.m; sourceTree = "<group>"; };
+		B2C010261F827630000CFF30 /* MCDDatabaseModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDDatabaseModelTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2C00F6A1F82568B000CFF30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C00F741F82568B000CFF30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C00F781F82568B000CFF30 /* ModularCoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B29FEB0C1F83955E00ADE9A4 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B2C010231F827630000CFF30 /* NSError+MCDDatabaseTests.m */,
+				B2C010241F827630000CFF30 /* MCDDatabaseConfigurationTests.m */,
+				B2C0101F1F82762F000CFF30 /* MCDDatabaseContextTests.m */,
+				B2C0101E1F82762F000CFF30 /* MCDDatabaseMappingModelTests.m */,
+				B2C010201F82762F000CFF30 /* MCDDatabaseMigrationManagerTests.m */,
+				B2C010211F82762F000CFF30 /* MCDDatabaseModelConfigurationTests.m */,
+				B2C010251F827630000CFF30 /* MCDDatabaseModelFunctionsTests.m */,
+				B2C010261F827630000CFF30 /* MCDDatabaseModelTests.m */,
+				B2C010221F82762F000CFF30 /* MCDDatabaseTests.m */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		B2C00F641F82568B000CFF30 = {
+			isa = PBXGroup;
+			children = (
+				B2C00F701F82568B000CFF30 /* ModularCoreData */,
+				B2C00F7B1F82568B000CFF30 /* ModularCoreDataTests */,
+				B2C00F6F1F82568B000CFF30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2C00F6F1F82568B000CFF30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2C00F6E1F82568B000CFF30 /* ModularCoreData.framework */,
+				B2C00F771F82568B000CFF30 /* ModularCoreDataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2C00F701F82568B000CFF30 /* ModularCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B2C00FCB1F82595F000CFF30 /* MCDDatabase.h */,
+				B2C00FC71F82595F000CFF30 /* MCDDatabase.m */,
+				B2C00FD41F825960000CFF30 /* MCDDatabase+Private.h */,
+				B2C00FD61F825960000CFF30 /* MCDDatabaseConfiguration.h */,
+				B2C00FC81F82595F000CFF30 /* MCDDatabaseConfiguration.m */,
+				B2C00FF11F825993000CFF30 /* Model */,
+				B2C00FF01F82596F000CFF30 /* Context */,
+				B2C00FF21F8259BA000CFF30 /* Migration */,
+				B2C010091F826CA4000CFF30 /* NS Categories */,
+				B2C00F711F82568B000CFF30 /* ModularCoreData.h */,
+				B2C010001F825C81000CFF30 /* Prefix.pch */,
+				B2C00F721F82568B000CFF30 /* Info.plist */,
+			);
+			path = ModularCoreData;
+			sourceTree = "<group>";
+		};
+		B2C00F7B1F82568B000CFF30 /* ModularCoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2C0100A1F82758B000CFF30 /* Test Data Generation */,
+				B29FEB0C1F83955E00ADE9A4 /* Tests */,
+				B2C00F7E1F82568B000CFF30 /* Info.plist */,
+				B29FEB0D1F83957700ADE9A4 /* Prefix.pch */,
+			);
+			path = ModularCoreDataTests;
+			sourceTree = "<group>";
+		};
+		B2C00FF01F82596F000CFF30 /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				B2C00FD71F825960000CFF30 /* MCDDatabaseContext.h */,
+				B2C00FCF1F82595F000CFF30 /* MCDDatabaseContext.m */,
+				B2C00FD81F825960000CFF30 /* MCDDatabaseContext+Private.h */,
+			);
+			name = Context;
+			sourceTree = "<group>";
+		};
+		B2C00FF11F825993000CFF30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B21502C71F8793F10058CB0A /* MCDDatabaseModelAssemblyProtocol.h */,
+				B2C00FD91F825960000CFF30 /* MCDDatabaseModel.h */,
+				B2C00FD01F82595F000CFF30 /* MCDDatabaseModel.m */,
+				B2C00FC51F82595F000CFF30 /* MCDDatabaseModel+Private.h */,
+				B2C00FC91F82595F000CFF30 /* MCDDatabaseModelConfiguration.h */,
+				B2C00FD11F82595F000CFF30 /* MCDDatabaseModelConfiguration.m */,
+				B2C00FCC1F82595F000CFF30 /* MCDDatabaseModelConfiguration+Private.h */,
+				B2C00FC61F82595F000CFF30 /* MCDDatabaseModelFunctions.h */,
+				B2C00FD31F825960000CFF30 /* MCDDatabaseModelFunctions.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B2C00FF21F8259BA000CFF30 /* Migration */ = {
+			isa = PBXGroup;
+			children = (
+				B2C00FCE1F82595F000CFF30 /* MCDDatabaseMigrationManager.h */,
+				B2C00FC41F82595F000CFF30 /* MCDDatabaseMigrationManager.m */,
+				B2C00FD21F825960000CFF30 /* MCDDatabaseMappingModel.h */,
+				B2C00FCD1F82595F000CFF30 /* MCDDatabaseMappingModel.m */,
+			);
+			name = Migration;
+			sourceTree = "<group>";
+		};
+		B2C010091F826CA4000CFF30 /* NS Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B2C010021F825D32000CFF30 /* NSError+ModularCoreData.h */,
+				B2C010011F825D31000CFF30 /* NSError+ModularCoreData.m */,
+				B2C010051F826C9A000CFF30 /* NSFileManager+ModularCoreData.h */,
+				B2C010061F826C9A000CFF30 /* NSFileManager+ModularCoreData.m */,
+			);
+			name = "NS Categories";
+			sourceTree = "<group>";
+		};
+		B2C0100A1F82758B000CFF30 /* Test Data Generation */ = {
+			isa = PBXGroup;
+			children = (
+				B2C010131F8275EB000CFF30 /* NSPredicate+DatabaseTests.h */,
+				B2C0100D1F8275EB000CFF30 /* NSPredicate+DatabaseTests.m */,
+				B2C0100E1F8275EB000CFF30 /* NSManagedObject+DatabaseTests.h */,
+				B2C010111F8275EB000CFF30 /* NSManagedObject+DatabaseTests.m */,
+				B2C010141F8275EB000CFF30 /* MCDDatabaseModel+Tests.h */,
+				B2C0100B1F8275EA000CFF30 /* MCDDatabaseModel+Tests.m */,
+				B2C0100F1F8275EB000CFF30 /* MCDDatabaseContext+Tests.h */,
+				B2C010171F8275EB000CFF30 /* MCDDatabaseContext+Tests.m */,
+				B2C0100C1F8275EA000CFF30 /* MCDDatabaseModelConfigurationTestDataSource.h */,
+				B2C010121F8275EB000CFF30 /* MCDDatabaseModelConfigurationFamilyDataSource.h */,
+				B2C010101F8275EB000CFF30 /* MCDDatabaseModelConfigurationFamilyDataSource.m */,
+				B2C010161F8275EB000CFF30 /* MCDDatabaseModelConfigurationSuperHeroesDataSource.h */,
+				B2C010151F8275EB000CFF30 /* MCDDatabaseModelConfigurationSuperHeroesDataSource.m */,
+			);
+			name = "Test Data Generation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B2C00F6B1F82568B000CFF30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C00FEF1F825960000CFF30 /* MCDDatabaseModel.h in Headers */,
+				B2C00FEA1F825960000CFF30 /* MCDDatabase+Private.h in Headers */,
+				B2C00FE41F825960000CFF30 /* MCDDatabaseMigrationManager.h in Headers */,
+				B2C00FDB1F825960000CFF30 /* MCDDatabaseModel+Private.h in Headers */,
+				B21502C81F8793F40058CB0A /* MCDDatabaseModelAssemblyProtocol.h in Headers */,
+				B2C00FEC1F825960000CFF30 /* MCDDatabaseConfiguration.h in Headers */,
+				B2C00FE21F825960000CFF30 /* MCDDatabaseModelConfiguration+Private.h in Headers */,
+				B2C00FE11F825960000CFF30 /* MCDDatabase.h in Headers */,
+				B2C00FEE1F825960000CFF30 /* MCDDatabaseContext+Private.h in Headers */,
+				B2C00FDC1F825960000CFF30 /* MCDDatabaseModelFunctions.h in Headers */,
+				B2C00FED1F825960000CFF30 /* MCDDatabaseContext.h in Headers */,
+				B2C010071F826C9A000CFF30 /* NSFileManager+ModularCoreData.h in Headers */,
+				B2C00FE81F825960000CFF30 /* MCDDatabaseMappingModel.h in Headers */,
+				B2C010041F825D32000CFF30 /* NSError+ModularCoreData.h in Headers */,
+				B2C00F7F1F82568B000CFF30 /* ModularCoreData.h in Headers */,
+				B2C00FDF1F825960000CFF30 /* MCDDatabaseModelConfiguration.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B2C00F6D1F82568B000CFF30 /* ModularCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C00F821F82568B000CFF30 /* Build configuration list for PBXNativeTarget "ModularCoreData" */;
+			buildPhases = (
+				B2C00F691F82568B000CFF30 /* Sources */,
+				B2C00F6A1F82568B000CFF30 /* Frameworks */,
+				B2C00F6B1F82568B000CFF30 /* Headers */,
+				B2C00F6C1F82568B000CFF30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModularCoreData;
+			productName = ModularCoreData;
+			productReference = B2C00F6E1F82568B000CFF30 /* ModularCoreData.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2C00F761F82568B000CFF30 /* ModularCoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C00F851F82568B000CFF30 /* Build configuration list for PBXNativeTarget "ModularCoreDataTests" */;
+			buildPhases = (
+				B2C00F731F82568B000CFF30 /* Sources */,
+				B2C00F741F82568B000CFF30 /* Frameworks */,
+				B2C00F751F82568B000CFF30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2C00F7A1F82568B000CFF30 /* PBXTargetDependency */,
+			);
+			name = ModularCoreDataTests;
+			productName = ModularCoreDataTests;
+			productReference = B2C00F771F82568B000CFF30 /* ModularCoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2C00F651F82568B000CFF30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MCD;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = SberTech;
+				TargetAttributes = {
+					B2C00F6D1F82568B000CFF30 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					B2C00F761F82568B000CFF30 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B2C00F681F82568B000CFF30 /* Build configuration list for PBXProject "ModularCoreData" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2C00F641F82568B000CFF30;
+			productRefGroup = B2C00F6F1F82568B000CFF30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2C00F6D1F82568B000CFF30 /* ModularCoreData */,
+				B2C00F761F82568B000CFF30 /* ModularCoreDataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2C00F6C1F82568B000CFF30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C00F751F82568B000CFF30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2C00F691F82568B000CFF30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C010081F826C9A000CFF30 /* NSFileManager+ModularCoreData.m in Sources */,
+				B2C00FDA1F825960000CFF30 /* MCDDatabaseMigrationManager.m in Sources */,
+				B2C00FE31F825960000CFF30 /* MCDDatabaseMappingModel.m in Sources */,
+				B2C00FE61F825960000CFF30 /* MCDDatabaseModel.m in Sources */,
+				B2C00FE71F825960000CFF30 /* MCDDatabaseModelConfiguration.m in Sources */,
+				B2C00FE51F825960000CFF30 /* MCDDatabaseContext.m in Sources */,
+				B2C00FDD1F825960000CFF30 /* MCDDatabase.m in Sources */,
+				B2C00FE91F825960000CFF30 /* MCDDatabaseModelFunctions.m in Sources */,
+				B2C010031F825D32000CFF30 /* NSError+ModularCoreData.m in Sources */,
+				B2C00FDE1F825960000CFF30 /* MCDDatabaseConfiguration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C00F731F82568B000CFF30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C0102F1F827630000CFF30 /* MCDDatabaseModelTests.m in Sources */,
+				B2C0102D1F827630000CFF30 /* MCDDatabaseConfigurationTests.m in Sources */,
+				B2C0101D1F8275EC000CFF30 /* MCDDatabaseContext+Tests.m in Sources */,
+				B2C010181F8275EC000CFF30 /* MCDDatabaseModel+Tests.m in Sources */,
+				B2C010291F827630000CFF30 /* MCDDatabaseMigrationManagerTests.m in Sources */,
+				B2C010191F8275EC000CFF30 /* NSPredicate+DatabaseTests.m in Sources */,
+				B2C0102B1F827630000CFF30 /* MCDDatabaseTests.m in Sources */,
+				B2C0101C1F8275EC000CFF30 /* MCDDatabaseModelConfigurationSuperHeroesDataSource.m in Sources */,
+				B2C0102C1F827630000CFF30 /* NSError+MCDDatabaseTests.m in Sources */,
+				B2C0102A1F827630000CFF30 /* MCDDatabaseModelConfigurationTests.m in Sources */,
+				B2C010281F827630000CFF30 /* MCDDatabaseContextTests.m in Sources */,
+				B2CFD4B91FA0E7C3005E4B6D /* MCDDatabaseModelFunctionsTests.m in Sources */,
+				B2C010271F827630000CFF30 /* MCDDatabaseMappingModelTests.m in Sources */,
+				B2C0101B1F8275EC000CFF30 /* NSManagedObject+DatabaseTests.m in Sources */,
+				B2C0101A1F8275EC000CFF30 /* MCDDatabaseModelConfigurationFamilyDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2C00F7A1F82568B000CFF30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2C00F6D1F82568B000CFF30 /* ModularCoreData */;
+			targetProxy = B2C00F791F82568B000CFF30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B2C00F801F82568B000CFF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2C00F811F82568B000CFF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2C00F831F82568B000CFF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ModularCoreData/Prefix.pch;
+				INFOPLIST_FILE = ModularCoreData/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SberTech.ModularCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2C00F841F82568B000CFF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ModularCoreData/Prefix.pch;
+				INFOPLIST_FILE = ModularCoreData/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SberTech.ModularCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B2C00F861F82568B000CFF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Externals";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ModularCoreDataTests/Prefix.pch;
+				INFOPLIST_FILE = ModularCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/../Externals";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../Externals";
+				PRODUCT_BUNDLE_IDENTIFIER = SberTech.ModularCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2C00F871F82568B000CFF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Externals";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ModularCoreDataTests/Prefix.pch;
+				INFOPLIST_FILE = ModularCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/../Externals";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../Externals";
+				PRODUCT_BUNDLE_IDENTIFIER = SberTech.ModularCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2C00F681F82568B000CFF30 /* Build configuration list for PBXProject "ModularCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C00F801F82568B000CFF30 /* Debug */,
+				B2C00F811F82568B000CFF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C00F821F82568B000CFF30 /* Build configuration list for PBXNativeTarget "ModularCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C00F831F82568B000CFF30 /* Debug */,
+				B2C00F841F82568B000CFF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C00F851F82568B000CFF30 /* Build configuration list for PBXNativeTarget "ModularCoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C00F861F82568B000CFF30 /* Debug */,
+				B2C00F871F82568B000CFF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2C00F651F82568B000CFF30 /* Project object */;
+}
